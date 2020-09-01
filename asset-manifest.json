@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/yasamanloghmani/tailwood.git/static/css/main.9e2f3d3d.chunk.css",
+    "main.js": "/yasamanloghmani/tailwood.git/static/js/main.bbfac0e4.chunk.js",
+    "main.js.map": "/yasamanloghmani/tailwood.git/static/js/main.bbfac0e4.chunk.js.map",
+    "runtime-main.js": "/yasamanloghmani/tailwood.git/static/js/runtime-main.e77d1201.js",
+    "runtime-main.js.map": "/yasamanloghmani/tailwood.git/static/js/runtime-main.e77d1201.js.map",
+    "static/js/2.76d452aa.chunk.js": "/yasamanloghmani/tailwood.git/static/js/2.76d452aa.chunk.js",
+    "static/js/2.76d452aa.chunk.js.map": "/yasamanloghmani/tailwood.git/static/js/2.76d452aa.chunk.js.map",
+    "index.html": "/yasamanloghmani/tailwood.git/index.html",
+    "precache-manifest.8744da7fc5fdd7230635818593f02e9b.js": "/yasamanloghmani/tailwood.git/precache-manifest.8744da7fc5fdd7230635818593f02e9b.js",
+    "service-worker.js": "/yasamanloghmani/tailwood.git/service-worker.js",
+    "static/css/main.9e2f3d3d.chunk.css.map": "/yasamanloghmani/tailwood.git/static/css/main.9e2f3d3d.chunk.css.map",
+    "static/js/2.76d452aa.chunk.js.LICENSE.txt": "/yasamanloghmani/tailwood.git/static/js/2.76d452aa.chunk.js.LICENSE.txt",
+    "static/media/maindashboard.png": "/yasamanloghmani/tailwood.git/static/media/maindashboard.195645b5.png",
+    "static/media/marketing.png": "/yasamanloghmani/tailwood.git/static/media/marketing.5fdf3c11.png",
+    "static/media/marketingimg.png": "/yasamanloghmani/tailwood.git/static/media/marketingimg.33cbd5fc.png",
+    "static/media/mintbean.png": "/yasamanloghmani/tailwood.git/static/media/mintbean.1474c6b6.png",
+    "static/media/tailwind.png": "/yasamanloghmani/tailwood.git/static/media/tailwind.c7c37cd2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e77d1201.js",
+    "static/js/2.76d452aa.chunk.js",
+    "static/css/main.9e2f3d3d.chunk.css",
+    "static/js/main.bbfac0e4.chunk.js"
+  ]
+}
