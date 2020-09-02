@@ -11,7 +11,8 @@ import marketing from './components/marketing.png';
 import componentimg from './components/components.png'
 import sectionImage from './components/marketingimg.png';
 import Services from './components/Services';
-import List from './components/List';
+import Board from './components/Board';
+
 class Components extends Component{
 render(){
     
@@ -29,21 +30,25 @@ render(){
             <h4 className="text-xl font-medium p-4 text-falling-light">Size : xl, Weight: medium, color: falling-light</h4>
             <h5 className="font-lg font-bold p-4 text-purples-dark font-screen">Size : lg, Weight: bold, color: purples-dark font: screen</h5>
             <h6 className="text-xs font-extrabold p-4 text-purples-light">Size : XS, Weight: extrabold, colorl: purples-light</h6>
+            <Board p1="className='text-6xl font-thin p-4 text-cyan-med font-screen'" p2='className="text-4xl font-light p-4 text-cyan-light"' p3='className="font-lg font-bold p-4 text-purples-dark font-screen"' p4='className="text-xs font-extrabold p-4 text-purples-light"' />
             </div>
 
             <div className='px-32'>
             <h1 className="text-3xl font-extrabold ">
-Services Exaples:</h1>
+                    Services Exaples:</h1>
 <div className="grid grid-cols-3 p-16 gap-8">
                 <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-cyan-med" pclass="font-medium text-xl mb-2  text-cyan-dark text-base" btnclass="bg-cyan-light hover:bg-cyan-dark text-falling-gray font-bold py-4 p-6 border border-falling-gray rounded my-8" h="Service1" p='paragraph paragraph paragraph paragraph paragraph'/>
                 <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-falling-med" pclass="font-bold text-2xl mb-2  text-falling-dark text-base" btnclass="bg-falling-light hover:bg-falling-dark text-falling-gray font-thin py-4 p-4 my-2" h="Service2" p='paragraph paragraph paragraph paragraph'/>
                 <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-purples-med" pclass="font-medium text-xl mb-2  text-blue-dark text-base" btnclass="bg-purples-light hover:bg-purples-dark text-falling-gray font-bold py-4 p-6 border border-falling-gray rounded my-8" h="Service3" p='paragraph paragraph paragraph paragraph paragraph'/>
-            </div>            </div>
+            </div>
+   
+                        </div>
             <h1 className="px-32 text-3xl font-extrabold ">You cam change header and footer to any colors with any headers and images, Also ypu can change social medias icons aswell</h1>
             <div className="p-32 ">
             <h1 className="text-3xl font-extrabold ">
-Card Exaple:</h1>
+Section with image Exaple:</h1>
                 <SectionWImage cardImage={cardImage}  h='Sample of Card' p="You can add a paragraph here. can change header , p , colors and image."/>
+            <Board p1='cardImage={cardImage}  h="Sample of Card" p="You can add a paragraph here. can change header , p , colors and image."' p2="import cardImage from './components/marketing.png';"/>
             </div>
             <Footer class="bg-cyan-dark text-cyan-light text-center mx-auto " color="#003333" linkedIn='https://linkedin.com/in/yasamanloghmani' gitHub='https://github.com/yasamanloghmani' webSite='https://yasamanloghmani.com' email='yasamanloghmani@gmail.com'/>
         </div>

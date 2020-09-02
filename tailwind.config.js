@@ -77,7 +77,8 @@ module.exports = {
       logo: {
         green: '#84bca4',
         blue: '#07073a',
-      }
+      }, 
+      board: '#333',
       
     }
   },
