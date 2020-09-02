@@ -6,6 +6,7 @@ import { Route, Switch, Redirect} from 'react-router-dom';
 import LeftMenu from './components/LeftMenu';
 import MainDashboard from './components/MainDashboard';
 import Sample from './Sample';
+import Components from './Components';
 function App() {
   return (
     <div className="w-screen">
@@ -21,7 +22,11 @@ function App() {
           path="/sample1">
             <Sample />   
         </Route>
-
+        <Route
+          exact
+          path="/components">
+            <Components />   
+        </Route>
       </Switch>
       
       

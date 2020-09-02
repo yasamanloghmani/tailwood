@@ -7,11 +7,11 @@ class Services extends Component{
             <div className='my-32'>
                 <div class="max-w-4xl mx-auto rounded overflow-hidden shadow-redshadow p-16">
                 <div class="">
-                    <div class="mb-8 font-bold text-3xl mb-2 text-center text-purples-med">{this.props.h}</div>
-                    <p class="font-medium text-xl mb-2  text-blue-dark text-base">
+                    <div class={this.props.hclass}>{this.props.h}</div>
+                    <p class={this.props.pclass}>
                         {this.props.p}                    
                     </p>
-                    <DarkButton btntext="See More" />
+                    <DarkButton btntext="See More" class={this.props.btnclass} />
                 </div>
                 <div class="px-6 pt-4 pb-2">
                 </div>

@@ -16,7 +16,7 @@ class LeftMenu extends Component{
                         <Link to='/sample1' className='hover:text-logo-green'>Sample1</Link>
                         <Link to='/' className='hover:text-logo-green'>Sample2</Link>
                         <Link to='/' className='hover:text-logo-green'>Sample3</Link>
-                        <Link to='/' className='hover:text-logo-green'>Components</Link>
+                        <Link to='/components' className='hover:text-logo-green'>Components</Link>
                     </ul>
                     
                 </div>

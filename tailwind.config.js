@@ -25,7 +25,7 @@ module.exports = {
     },
     fontFamily: {
       'screen': ['Georgia','Cambria', 'serif'],
-      'mobile': ['-apple-system', 'BlinkMacSystemFont'],
+      'mobile': ['san-serif'],
     },
     fontSize: {
       'xs': '.75rem',
@@ -61,7 +61,7 @@ module.exports = {
         light: '	#009090'
       },
       falling: {
-        dark: '#	#24527b',
+        dark: '#24527b',
         med: '#2d72a2',
         light: '#6a92bb',
         gray: '#b5c9dd',

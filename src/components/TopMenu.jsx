@@ -13,7 +13,7 @@ class TopMenu extends Component{
                     <Link to='/sample1' className='hover:text-cyan-light p-8'>Sample1</Link>
                     <Link to='/' className='hover:text-cyan-light p-8'>Sample2</Link>
                     <Link to='/' className='hover:text-cyan-light p-8'>Sample3</Link>
-                    <Link to='/' className='hover:text-cyan-light p-8'>Components</Link>
+                    <Link to='/components' className='hover:text-cyan-light p-8'>Components</Link>
                 </ul>
                 
             </div>
