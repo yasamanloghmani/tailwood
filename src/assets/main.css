@@ -6343,12 +6343,24 @@ video {
   box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
 }
 
+.shadow-boxshadow {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
 .hover\:shadow-redshadow:hover {
   box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
 }
 
+.hover\:shadow-boxshadow:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
 .focus\:shadow-redshadow:focus {
   box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
+}
+
+.focus\:shadow-boxshadow:focus {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .fill-current {
@@ -15588,12 +15600,24 @@ video {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
   }
 
+  .sm\:shadow-boxshadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .sm\:hover\:shadow-redshadow:hover {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
   }
 
+  .sm\:hover\:shadow-boxshadow:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .sm\:focus\:shadow-redshadow:focus {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
+  }
+
+  .sm\:focus\:shadow-boxshadow:focus {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
   .sm\:fill-current {
@@ -24803,12 +24827,24 @@ video {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
   }
 
+  .md\:shadow-boxshadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .md\:hover\:shadow-redshadow:hover {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
   }
 
+  .md\:hover\:shadow-boxshadow:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .md\:focus\:shadow-redshadow:focus {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
+  }
+
+  .md\:focus\:shadow-boxshadow:focus {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
   .md\:fill-current {
@@ -34018,12 +34054,24 @@ video {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
   }
 
+  .lg\:shadow-boxshadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .lg\:hover\:shadow-redshadow:hover {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
   }
 
+  .lg\:hover\:shadow-boxshadow:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .lg\:focus\:shadow-redshadow:focus {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
+  }
+
+  .lg\:focus\:shadow-boxshadow:focus {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
   .lg\:fill-current {
@@ -43233,12 +43281,24 @@ video {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
   }
 
+  .xl\:shadow-boxshadow {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .xl\:hover\:shadow-redshadow:hover {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
   }
 
+  .xl\:hover\:shadow-boxshadow:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
   .xl\:focus\:shadow-redshadow:focus {
     box-shadow: 0 20px 25px -5px rgba(100, 0, 0, 0.1), 0 10px 10px -5px rgba(100, 0, 0, 0.04);
+  }
+
+  .xl\:focus\:shadow-boxshadow:focus {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
   .xl\:fill-current {

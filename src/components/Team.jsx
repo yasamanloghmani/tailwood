@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Team extends Component{
     render(){
         return(
-            <div class="grid grid-cols-2  border-4 rounded-full border-falling-gray p-8 m-32">
+            <div class="grid grid-cols-2  border-4 rounded-full border-falling-gray p-8 m-32 shadow-boxshadow">
                 <div class="md:flex-shrink-0 px-6 ">
                     <img class="rounded-full w-400 p-4" src={this.props.teamimg} alt="Woman paying for a purchase" />
                 </div>
