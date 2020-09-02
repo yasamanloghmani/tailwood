@@ -17,7 +17,7 @@ render(){
     return(
         <div>
             <TopMenu class="bg-cyan-dark text-cyan-light" />
-            <Header  class="bg-cyan-dark text-cyan-light" color="#003333" h1='"No market" Marketing Company' src={componentimg}/>
+            <Header  class="bg-cyan-dark text-cyan-light" color="#003333" h1='"Cool Tailwood Components' src={componentimg}/>
             <div className='px-32'>
             <h1 className="text-3xl font-extrabold ">
                 Samples Of headers and fonts and different font size and font weight:
@@ -35,7 +35,7 @@ render(){
 Services Exaples:</h1>
 <div className="grid grid-cols-3 p-16 gap-8">
                 <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-cyan-med" pclass="font-medium text-xl mb-2  text-cyan-dark text-base" btnclass="bg-cyan-light hover:bg-cyan-dark text-falling-gray font-bold py-4 p-6 border border-falling-gray rounded my-8" h="Service1" p='paragraph paragraph paragraph paragraph paragraph'/>
-                <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-falling-med" pclass="font-bold text-2xl mb-2  text-falling-dark text-base" btnclass="bg-falling-light hover:bg-falling-dark text-falling-gray font-thin py-4 p-4 my-2" h="Service2" p='paragraph paragraph paragraph paragraph paragraph'/>
+                <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-falling-med" pclass="font-bold text-2xl mb-2  text-falling-dark text-base" btnclass="bg-falling-light hover:bg-falling-dark text-falling-gray font-thin py-4 p-4 my-2" h="Service2" p='paragraph paragraph paragraph paragraph'/>
                 <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-purples-med" pclass="font-medium text-xl mb-2  text-blue-dark text-base" btnclass="bg-purples-light hover:bg-purples-dark text-falling-gray font-bold py-4 p-6 border border-falling-gray rounded my-8" h="Service3" p='paragraph paragraph paragraph paragraph paragraph'/>
             </div>            </div>
             <h1 className="px-32 text-3xl font-extrabold ">You cam change header and footer to any colors with any headers and images, Also ypu can change social medias icons aswell</h1>
