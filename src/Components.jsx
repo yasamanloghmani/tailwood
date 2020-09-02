@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import TopMenu from './components/TopMenu';
 import SectionWImage from './components/SectionWImage';
 // import Footer from "./Footer";
+import cardImage from './components/marketing.png';
 import marketing from './components/marketing.png';
 import componentimg from './components/components.png'
 import sectionImage from './components/marketingimg.png';
@@ -39,7 +40,10 @@ Services Exaples:</h1>
                 <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-purples-med" pclass="font-medium text-xl mb-2  text-blue-dark text-base" btnclass="bg-purples-light hover:bg-purples-dark text-falling-gray font-bold py-4 p-6 border border-falling-gray rounded my-8" h="Service3" p='paragraph paragraph paragraph paragraph paragraph'/>
             </div>            </div>
             <h1 className="px-32 text-3xl font-extrabold ">You cam change header and footer to any colors with any headers and images, Also ypu can change social medias icons aswell</h1>
-            <div className="px-32"></div>
+            <div className="px-32">
+                <h1></h1>
+                <SectionWImage cardImage={cardImage}  h='Sample of Card' p="You can add a paragraph here. can change header , p , colors and image."/>
+            </div>
             <Footer class="bg-cyan-dark text-cyan-light text-center mx-auto " color="#003333" linkedIn='https://linkedin.com/in/yasamanloghmani' gitHub='https://github.com/yasamanloghmani' webSite='https://yasamanloghmani.com' email='yasamanloghmani@gmail.com'/>
         </div>
     )
