@@ -4,8 +4,8 @@ import mainimage from './maindashboard.png';
 class Card extends Component{
     render(){
         return(
-            <div className='my-32'>
-                <div class="max-w-4xl mx-auto rounded overflow-hidden shadow-lg p-24">
+            <div className='my-32 shadow-xl'>
+                <div class="max-w-4xl mx-auto rounded overflow-hidden shadow-lg shadow-xl p-24">
                 <img class="w-full mb-16" src={this.props.cardImage} alt="Sunset in the mountains" />
                 <div class="px-6 py-4">
                     <div class="mb-8 font-bold text-3xl mb-2 text-center text-blue-light">{this.props.h}</div>
