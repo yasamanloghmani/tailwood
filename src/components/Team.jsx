@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class SectionWImage extends Component{
+class Team extends Component{
     render(){
         return(
-            <div class="grid grid-cols-2">
+            <div class="grid grid-cols-2  border-4 rounded-full border-falling-gray p-8 m-32">
                 <div class="md:flex-shrink-0 px-6 ">
-                    <img class="rounded-lg w-400 shadow-2xl p-4" src={this.props.cardImage} />
+                    <img class="rounded-lg w-400 p-4" src={this.props.teamimg} alt="Woman paying for a purchase" />
                 </div>
                 <div>
                 <div class="font-bold text-3xl mb-2 text-center text-blue-light">{this.props.h}</div>    
@@ -18,4 +18,4 @@ class SectionWImage extends Component{
     }
 }
 
-export default SectionWImage;
+export default Team;

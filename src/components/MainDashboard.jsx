@@ -6,6 +6,8 @@ import cardimage from './tailwind.png';
 import Mintbean from './mintbean.png';
 import Card from './Card';
 import Footer from "./Footer";
+import Team from './Team';
+import teamimg from './yasi.png';
 class MainDashboard extends Component{
     render(){
         return(
@@ -16,6 +18,7 @@ class MainDashboard extends Component{
 
                     Tailwind is a low-level CSS library that lets you create your own UI components from scratch. It is a powerful building block rather than a full component library.
                     " p2=" I got the from Mintbean Hackathon. and I did the first version of this project in 2 days" tag1="#mintbean" tag2="#yasamanloghmani" tag3="#tailwind"/>
+                <Team teamimg={teamimg} p="Mission-driven full stack developer with a passion for thoughtful UI design. I have more than 5 years of experience in web design and development. My background in Information Technology has allowed me to have a better understanding in computer science and technology. I am passionate about building excellent software that improves the lives of those around me. I consider myself as a determined person, quick learner." h="Yasaman Loghmani"/>
                <Footer class="bg-blue-toolight text-blue-light text-center mx-auto " color="#ebf8ff" linkedIn='https://linkedin.com/in/yasamanloghmani' gitHub='https://github.com/yasamanloghmani' webSite='https://yasamanloghmani.com' email='yasamanloghmani@gmail.com'/>
             </div>
         );

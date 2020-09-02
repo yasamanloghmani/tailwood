@@ -17,7 +17,7 @@ render(){
     return(
         <div>
             <TopMenu class="bg-cyan-dark text-cyan-light" />
-            <Header  class="bg-cyan-dark text-cyan-light" color="#003333" h1='"Cool Tailwood Components' src={componentimg}/>
+            <Header  class="bg-cyan-dark text-cyan-light" color="#003333" h1='"Cool Tailwood Components"' src={componentimg}/>
             <div className='px-32'>
             <h1 className="text-3xl font-extrabold ">
                 Samples Of headers and fonts and different font size and font weight:
