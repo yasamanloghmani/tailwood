@@ -37,7 +37,12 @@ render(){
             <h1 className="text-3xl font-extrabold ">
                     Services Exaples:</h1>
 <div className="grid grid-cols-3 p-16 gap-8">
-                <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-cyan-med" pclass="font-medium text-xl mb-2  text-cyan-dark text-base" btnclass="bg-cyan-light hover:bg-cyan-dark text-falling-gray font-bold py-4 p-6 border border-falling-gray rounded my-8" h="Service1" p='paragraph paragraph paragraph paragraph paragraph'/>
+                <Services
+                 hclass="mb-8 font-bold text-3xl mb-2 text-center text-cyan-med"
+                  pclass="font-medium text-xl mb-2  text-cyan-dark text-base"
+                   btnclass="bg-cyan-light hover:bg-cyan-dark text-falling-gray font-bold py-4 p-6 border border-falling-gray rounded my-8" 
+                   h="Service1" 
+                   p='paragraph paragraph paragraph paragraph paragraph'/>
                 <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-falling-med" pclass="font-bold text-2xl mb-2  text-falling-dark text-base" btnclass="bg-falling-light hover:bg-falling-dark text-falling-gray font-thin py-4 p-4 my-2" h="Service2" p='paragraph paragraph paragraph paragraph'/>
                 <Services hclass="mb-8 font-bold text-3xl mb-2 text-center text-purples-med" pclass="font-medium text-xl mb-2  text-blue-dark text-base" btnclass="bg-purples-light hover:bg-purples-dark text-falling-gray font-bold py-4 p-6 border border-falling-gray rounded my-8" h="Service3" p='paragraph paragraph paragraph paragraph paragraph'/>
             </div>
