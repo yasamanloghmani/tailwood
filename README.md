@@ -54,12 +54,7 @@ For this prohect I designed these components:
                 p='paragraph'/>
    ```
    ```Bash
-      npx create-react-app
-      npm i
-      npm i tailwindcss
-      npm i postcss
-      npm i postcss-cli
-      npm i postcss-import
+      <Team teamimg={teamimg} p="Mission-driven full stack developer with a passion for thoughtful UI design. I have more than 5 years of experience in web design and development" h="Yasaman Loghmani"/>
    ```
 
 <h2 id='used'>Used Packages</h2>
@@ -73,13 +68,79 @@ I used React and Tailwood CSS for this project and
       npm i postcss-cli
       npm i postcss-import
    ```
+<h2 id='used'>CSS Configuration</h2>
+Here are a few examples of Tailwood CSS configuration
+* Colors:
 
-<h1 id='gettting'>API Documentation</h1>
+   ```Bash
+      colors: {
+      purples :{
+        dark: '#300030',
+        med:'#580838',
+        light: '#680840',
+      },
+      cyan: {
+        dark: '#003333',
+        med: '	#003f3f',
+        light: '	#009090'
+      },
+      falling: {
+        dark: '#24527b',
+        med: '#2d72a2',
+        light: '#6a92bb',
+        gray: '#b5c9dd',
+      },
+      blue: {
+        dark: '#001B3A',
+        med: '#00224B',
+        light: '#00316E',
+        toolight: '#ebf8ff',
+        header: '#a2d5f2'
+      },
+      logo: {
+        green: '#84bca4',
+        blue: '#07073a',
+      }, 
+      board: '#333',
+      
+    }
+   ```
+* Font Sizes:
+ ```Bash
+      fontSize: {
+      'xs': '.75rem',
+      'sm': '.875rem',
+      'tiny': '.875rem',
+      'base': '1rem',
+      'lg': '1.125rem',
+      'xl': '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
+    },
+   ```
+* Font Wights:
 
-[Go Back to Summary](#summary)
+ ```Bash
+      fontWeight: {
+      thin : 200,
+      light: 300,
+      normal: 400,
+      medium: 500,
+      bold: 700,
+      extrabold: 900
+    },
+   ```
 
-* Access [CoffeeBreak](https://coffeebreakapi.herokuapp.com/api)
 
+<a href="https://ibb.co/zRrPjqM"><img src="https://i.ibb.co/fp2rBjg/Screen-Shot-2020-09-03-at-11-07-40-AM.png" alt="Screen-Shot-2020-09-03-at-11-07-40-AM" border="0"></a>
+<a href="https://ibb.co/6FrPjSc"><img src="https://i.ibb.co/0rmMHLp/Screen-Shot-2020-09-03-at-11-08-01-AM.png" alt="Screen-Shot-2020-09-03-at-11-08-01-AM" border="0"></a>
+<a href="https://ibb.co/1zfT3k4"><img src="https://i.ibb.co/WVWfQLR/Screen-Shot-2020-09-03-at-11-08-10-AM.png" alt="Screen-Shot-2020-09-03-at-11-08-10-AM" border="0"></a>
+<a href="https://ibb.co/vmjR01P"><img src="https://i.ibb.co/S03GFNn/Screen-Shot-2020-09-03-at-11-08-21-AM.png" alt="Screen-Shot-2020-09-03-at-11-08-21-AM" border="0"></a>
+<a href="https://ibb.co/qx45dLM"><img src="https://i.ibb.co/kMr1xVg/Screen-Shot-2020-09-03-at-11-08-35-AM.png" alt="Screen-Shot-2020-09-03-at-11-08-35-AM" border="0"></a>
+<a href="https://ibb.co/MPQHDxL"><img src="https://i.ibb.co/yg7CncJ/Screen-Shot-2020-09-03-at-11-08-46-AM.png" alt="Screen-Shot-2020-09-03-at-11-08-46-AM" border="0"></a>
 
-<img width="40%" height="50%" alt="Getting Started" src="./public/images/IMG_5483.png"><img width="40%" height="50%" alt="Getting Started" src="./public/images/IMG_5484.png">
-<img width="40%" height="50%" alt="Getting Started" src="./public/images/Screen Shot 2020-03-26 at 6.05.52 PM.png"><img width="40%" height="50%" alt="Getting Started" src="./public/images/Screen Shot 2020-03-26 at 6.05.52 PM.png">
+<!-- <img width="40%" height="50%" alt="Getting Started" src="./public/images/IMG_5483.png"><img width="40%" height="50%" alt="Getting Started" src="./public/images/IMG_5484.png">
+<img width="40%" height="50%" alt="Getting Started" src="./public/images/Screen Shot 2020-03-26 at 6.05.52 PM.png"><img width="40%" height="50%" alt="Getting Started" src="./public/images/Screen Shot 2020-03-26 at 6.05.52 PM.png"> -->
